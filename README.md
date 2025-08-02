@@ -83,8 +83,7 @@ This project was created as part of a web development learning exercise and aims
 ---
 
 ## 🌐 Live Demo
-
-> Coming Soon! 
+https://sdg4-quality-education-website.vercel.app/
 
 ---
 
