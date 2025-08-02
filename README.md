@@ -8,15 +8,12 @@ The page highlights key initiatives that support quality education using clean H
 
 ## 🚀 Features
 
-- 🧭 **Navigation Bar**: Smooth navigation through key sections — Home, Initiatives, About, and Contact.
-- 🖼️ **Hero Section**: A bold call to action for universal education.
-- 🧩 **Features Cards**: Three initiative highlights:
-  - Accessible Learning
-  - Digital Classrooms
-  - Teacher Training
-- 📖 **About Section**: Explains the importance of SDG 4.
-- 📢 **Call to Action**: Encourages user engagement and awareness.
-- 📱 **Responsive Design**: Mobile-friendly and built with clean semantic HTML5 and modern CSS3.
+- 🌐 Clean and responsive layout
+- 📱 Can be viewed on all screen sizes (mobile, tablet, desktop)
+- 🎯 Focused content on SDG 4
+- 🧭 Smooth navigation between sections
+- 🎨 Custom styling with CSS3
+- ⚙️ Basic interactivity using JavaScript
 
 ---
 
@@ -25,6 +22,7 @@ The page highlights key initiatives that support quality education using clean H
 sdg4-quality-education/
 ├── index.html # Main HTML file
 ├── styles.css # External CSS file for styling
+├── script.js # javascript file
 └── README.md # Project documentation
 ```
 
@@ -34,6 +32,7 @@ sdg4-quality-education/
 
 - HTML5
 - CSS3 (Flexbox, Grid, Transitions)
+- Javascript 
 - Google Fonts (Montserrat)
 
 ---
