@@ -24,6 +24,8 @@ body {
   padding: 1.2rem 2rem;
   background-color: #111;
   color: white;
+  position: relative;
+  z-index: 1001;
 }
 
 .logo {
@@ -47,6 +49,14 @@ body {
 
 .nav-links li a:hover {
   color: #00adb5;
+}
+
+/* Mobile Menu Icon */
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
 }
 
 /* Hero Section */
@@ -175,4 +185,53 @@ footer {
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
+}
+
+/* Scroll Reveal Animations */
+.hero,
+.feature-item,
+.about,
+.cta {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #111;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+@media (min-width: 769px) {
+  .nav-links {
+    display: flex !important;
+  }
+
+  .menu-toggle {
+    display: none !important;
+  }
 }
